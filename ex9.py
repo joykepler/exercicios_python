@@ -1,6 +1,6 @@
-c = int(input('Insira a temperatura em graus Celcius '))
+f = int(input('Insira a temperatura em graus Celcius '))
 
-f = (c * 1.8) + 32
+c = 5 * ((f-32) / 9)
     
-print('A temperatura em graus Fahrenheit é', f)
+print('A temperatura em graus Celcius é', c)
  
